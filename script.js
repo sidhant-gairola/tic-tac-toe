@@ -25,7 +25,6 @@ const checkWin = ()=>{                                                          
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won";
             isgameover = true;
             gameover.play();                                                                     //playing audio when the gamae is over
-            document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "200px";                 //showing the image
         }
     })
 }
@@ -56,5 +55,4 @@ reset.addEventListener('click', ()=>{
     turn = "X"; 
     isgameover = false
     document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
-    document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px";               //making disappear the image
 })
