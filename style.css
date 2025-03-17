@@ -47,6 +47,7 @@ h1 {
 }
 
 .box {
+    padding: 2rem;
     border: 2px solid;
     border-color: black;
     font-size: x-large;
