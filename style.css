@@ -49,7 +49,7 @@ h1 {
 .box {
     border: 2px solid;
     border-color: black;
-    font-size: 4vw;
+    font-size: x-large;
     cursor: pointer;
     display: flex;
     justify-content: center;
